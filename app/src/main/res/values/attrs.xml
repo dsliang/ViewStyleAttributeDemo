@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomView">
+        <attr name="attrA" format="string"></attr>
+        <attr name="attrB" format="string"></attr>
+        <attr name="attrC" format="string"></attr>
+        <attr name="attrD" format="string"></attr>
+        <attr name="attrE" format="string"></attr>
+        <attr name="attrF" format="string"></attr>
+        <attr name="attrG" format="string"></attr>
+    </declare-styleable>
+
+    <attr name="customViewStyle" format="reference"></attr>
+
+</resources>

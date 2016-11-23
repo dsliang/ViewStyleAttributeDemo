@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="attrF">set from theme</item>
+        <item name="attrG">set from theme</item>
+        <item name="customViewStyle">@style/CustomViewStyle</item>
+    </style>
+
+    <style name="SpecialCustomViewStyle">
+        <item name="attrB">set from view style</item>
+        <item name="attrC">set from view style</item>
+        <item name="attrD">set from view style</item>
+    </style>
+
+    <style name="CustomViewStyle">
+        <item name="attrD">set from theme style</item>
+        <item name="attrE">set from theme style</item>
+        <item name="attrF">set from theme style</item>
+    </style>
+
+    <style name="DefaultCustomViewStyle">
+        <item name="attrD">set from default view style</item>
+        <item name="attrE">set from default view style</item>
+        <item name="attrF">set from default view style</item>
+    </style>
+
+</resources>
